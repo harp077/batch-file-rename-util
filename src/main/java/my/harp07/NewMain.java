@@ -13,7 +13,7 @@ public class NewMain {
             File ff=new File("rename/" + name);
             ff.renameTo(new File("rename/" + j + ".jar"));
             System.out.println("rename/" + name + " to rename/" + j + ".jar");
-            j++;
+            j--;
         }
     }
     
